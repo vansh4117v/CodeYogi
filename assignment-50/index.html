@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment - 50</title>
+  </head>
+  <body>
+    <p id="numbers">3, 23, 7, 17, 42, 9, 22, 4, 33, 88, 13, 27, 10, 64</p>
+    <button onclick="sort(event)">even</button>
+    <button onclick="sort(event)">odd</button>
+    <p id="result"></p>
+    <script>
+      let numbers = [3, 23, 7, 17, 42, 9, 22, 4, 33, 88, 13, 27, 10, 64];
+      function sort(event) {
+        let filtered;
+        if (event.target.innerHTML === "even") {
+          filtered = numbers.filter((x) => parseInt(x) % 2 == 0);
+        } else {
+          filtered = numbers.filter((x) => parseInt(x) % 2 != 0);
+        }
+        console.log(filtered);
+        document.getElementById("result").innerHTML = filtered;
+      }
+    </script>
+  </body>
+</html>
