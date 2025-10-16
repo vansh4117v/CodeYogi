@@ -1,0 +1,55 @@
+.bg-gray {
+  background-color: gray;
+}
+
+.font-white {
+  color: white;
+}
+
+.border-none {
+  border: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.w-200 {
+  width: 200px;
+}
+
+.w-100p {
+  width: 100%;
+}
+
+.cover {
+  object-fit: cover;
+}
+
+.p-5 {
+  padding: 5px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.h-600 {
+  height: 350px;
+}
+
+.shadow {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

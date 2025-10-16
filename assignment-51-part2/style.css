@@ -1,0 +1,46 @@
+.bg-green {
+  background-color: green;
+}
+
+.border-dotted {
+  border: 4px dotted black;
+}
+
+.border-solid {
+  border: 10px solid black;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.height-300px {
+  height: 300px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+.inline-block {
+  display: inline-block;
+}
+
+.font-20px {
+  font-size: 20px;
+}
+
+.margin-auto {
+  margin: 10px auto;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.w-70p {
+  width: 70%;
+}
